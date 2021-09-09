@@ -140,8 +140,13 @@ Write a function that creates an object with name, rating, feedback, add the new
   4. should return the resulting array
 */
 
-function addReview(/*Your Code Here */) {
-  /*Your Code Here */
+function addReview(array, person, review, description) {
+  array.push({
+    name: `${person}`,
+    rating: review,
+    feedback: `${description}`,
+  });
+  return array;
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
